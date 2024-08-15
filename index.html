@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="My portfolio website">
     <meta name="keywords" content="web design, htmls, css, js">
-    <title>Porfolio Website</title>
+    <title>Michal Fusko</title>
   </head>
   <body>
 
@@ -15,13 +15,13 @@
       <nav>
         <ul class="header__menu">
           <li>
-            <a class="header__link" href="#about">About</a>
+            <a class="header__link" href="#about">O mne</a>
           </li>
           <li>
-            <a class="header__link" href="#featured">Work</a>
+            <a class="header__link" href="#featured">Projekty</a>
           </li>
           <li>
-            <a class="header__link" href="#contact">Contact</a>
+            <a class="header__link" href="#contact">Kontakt</a>
           </li>
           <li class="header__line"></li>
           <li>
@@ -32,7 +32,7 @@
             </button>
           </li>
           <li>
-            <a class="header__resume btn" href="#">Resume</a>
+            <a class="header__resume btn" href="#">Životopis</a>
           </li>
         </ul>
         <button aria-label="mobile nav button" class="header__bars">
@@ -48,13 +48,13 @@
       <nav>
         <ul class="mobile-nav__menu">
           <li>
-            <a href="#about" class="mobile-nav__link">About</a>
+            <a href="#about" class="mobile-nav__link">O mne</a>
           </li>
           <li>
-            <a href="#featured" class="mobile-nav__link">Work</a>
+            <a href="#featured" class="mobile-nav__link">Projekty</a>
           </li>
           <li>
-            <a href="#contact" class="mobile-nav__link">Contact</a>
+            <a href="#contact" class="mobile-nav__link">Kontakt</a>
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
@@ -65,7 +65,7 @@
             </button>
           </li>
           <li>
-            <a href="#" class="mobile-nav__btn btn">Resume</a>
+            <a href="#" class="mobile-nav__btn btn">Životopis</a>
           </li>
         </ul>
       </nav>
@@ -75,30 +75,36 @@
     <main>
       <section class="hero container">
         <img class="hero__img" src="/hero.jpg" alt="Profile picture">
-        <h2 class="hero__subtitle">Hi, I'm Michal!</h2>
+        <h2 class="hero__subtitle">Zdravím, ja som Michal!</h2>
         <h1 class="hero__title">FRONT-END <br> WEB DEVELOPER.</h1>
-        <p class="hero__description">A passionate <strong>Frontend / Fullstack-Jamstack</strong> web developer and <strong>UI/UX</strong> enthusiast specialized in building stunning pixel-perfect interactive websites/applications.</p>
+        <p class="hero__description">Začínajúci <strong>Front-end</strong> web developer so základnými znalosťami JS <strong>React</strong> knižnice a CSS frameworku <strong>Tailwind</strong> , alebo knižnice <strong>MUI</strong>.  </p>
         <a class="hero__btn btn" href="">Reach out</a>
       </section>
       <section id="about" class="about container section">
         <div class="about__content">
-          <h2 class="about__title">About</h2>
-          <p class="about__description">Hello there! I'm Michal, a <strong>Frontend / Fullstack-Jamstacks</strong> web devloper based in Prague. I wake up in the morning, grab a cup of timmies coffee, open up my laptop and build things that live on the web all day, everyday.</p>
-          <p class="about__description">People who know me say I'm obsessed, that's fair, I am very driven and love learning new things.</p>
-          <p class="about__description">I recently created a YouTube channel called <a href="#">Slaying The Dragon</a> where i upload videos on front-ent web development topics.</p>
+          <h2 class="about__title">O mne</h2>
+          <p class="about__description"> Zdravím! Ja som Michal, začínajúci <strong>Frontend</strong> web devloper žijúci v Brne. Programovať som sa začal učiť v januári tohto roku, keď som skončil v predošlej práci a rozhodol sa dať si chvíľu pauzu, popremýšlať nad tým, prečo som v živote nešťastný a niečo zmeniť. :&#41;</p>
+          <p class="about__description">Za tú dobu som stihol:</p>
+          <ul class="about__description">
+            <li>Začať a nedokončiť kurz od "Yablka" na skillmea.</li>
+            <li>Prejsť polovicu Youtube kanálu "David Šetek".</li>
+            <li>Nechať sa šikanovať od Chat GTP zadaniami na praktizovanie JS syntaxe.</li>
+            <li>A v neposlednom rade zaseknúť sa v "tutorial hell" a robiť málo svojich projektov.</li>
+        </ul>
+          <p class="about__description">Učenie doma nieje úplne pre mňa, a prídem si, akoby som hľadal ihlu v kope sena. Preto si začínam hľadať prácu, kde mi niekto skúsený bude môcť povedať, v čom som dobrý, čomu sa mám venovať čas a čo je pre mňa zbytočné.</p>
           <hr class="about__hr">
-          <h3 class="about__subtitle">Technologies</h3>
+          <h3 class="about__subtitle">Môj tech-stack</h3>
           <div class="about__ul-container">
             <ul class="about__ul">
-              <li class="about__list">JavaScript (ES6+)</li>
+              <li class="about__list">JavaScript</li>
               <li class="about__list">CSS</li>
               <li class="about__list">HTML</li>
               
             </ul>
             <ul class="about__ul">
               <li class="about__list">ReactJS</li>
-              <li class="about__list">NextJS</li>
               <li class="about__list">TailwindCSS</li>
+              <li class="about__list">MUI-library</li>
             </ul>
           </div>
         </div>
@@ -106,20 +112,144 @@
           <img class="about__img lazy loading" src="https://fakeimg.pl/1125" data-src="/about.jpg" alt="Profile picture">
         </div>
       </section>
+      
+      <section class="work container section">
+        <h2 class="work__title">Projekty</h2>
+        <p class="work__description">
+          Síce nemám veľa svojich vlastných projektov, ale aj tak som pozbieral pár zložiek z PC, ktoré snáď nespravia zlý dojem, aby som mohol zostaviť toto portfólio :&#41;
+
+        <div class="work__container">
+          <!-- Project 1-->
+          <h3 class="work__project-title">JS ToDoApp</h3>
+          <div class="work__img-wrapper work__image1">  
+            <img class="lazy loading"  data-src="/js-todo-scshot.png" alt="Projekt 1">
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">JS ToDoApp</h3>
+            <p class="work__project-description1">V appke možno pridať task, označiť ho ako splnený, premenovať ho alebo ho úplne vymazať.</p>
+            <ul class="work__project-description2">
+              <li class="work__project-description2">
+                HTML
+              </li>
+              <li class="work__project-description2">
+                CSS
+              </li>
+              <li class="work__project-description2">
+                JavaScript
+              </li>
+            </ul>
+            <a href="" class="btn work__project-btn">Github-code</a>
+          </div>
+
+          <!-- Project 2-->
+          <h3 class="work__project-title">React ToDoApp</h3>
+          <div class="work__img-wrapper  work__image2">  
+            <img class="lazy loading"  data-src="/react-todo-scshot.png" alt="Projekt 2">
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">React ToDoApp</h3>
+            <p class="work__project-description1">Úplne rovnaká to-do appka, len v reacte s MUI komponentami. Chcel som si vyskúšať hlavne funkčnosť, preto nieje naštýlovaná.</p>
+            <ul class="work__project-description2">
+              <li class="work__project-description2">
+                React
+              </li>
+              <li class="work__project-description2">
+                MUI
+              </li>
+            </ul>
+            <a href="" class="btn work__project-btn">Github-code</a>
+          </div>
+
+          <!-- Project 3-->
+          <h3 class="work__project-title">JS Carousel</h3>
+          <div class="work__img-wrapper  work__image3">  
+            <img class="lazy loading"  data-src="/js-carousel-scshot.png" alt="Projekt 3">
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">JS Carousel</h3>
+            <p class="work__project-description1">Animácia na carousel slider.</p>
+            <ul class="work__project-description2">
+              <li class="work__project-description2">
+                HTML
+              </li>
+              <li class="work__project-description2">
+                CSS
+              </li>
+              <li class="work__project-description2">
+                JavaScript
+              </li>
+            </ul>
+            <a href="" class="btn work__project-btn">Github-code</a>
+          </div>
+
+          <!-- Project 4-->
+          <h3 class="work__project-title">React e-shop</h3>
+          <div class="work__img-wrapper  work__image4">  
+            <img class="lazy loading"  data-src="/react-e-shop-scshot.png" alt="Projekt 4">
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">React e-shop</h3>
+            <p class="work__project-description1">Appka zatiaľ nieje moc funkčná, fungujú sekcie electronics a jewelery. Ďalej budem robiť usera a košík, potom landing page s loginom.  </p>
+            <ul class="work__project-description2">
+              <li class="work__project-description2">
+                React
+              </li>
+              <li class="work__project-description2">
+                Redux, React router
+              </li>
+              <li class="work__project-description2">
+                MUI
+              </li>
+            </ul>
+            <a href="" class="btn work__project-btn">Github-code</a>
+          </div>
+
+          <!-- Project 5-->
+          <h3 class="work__project-title">Project 5</h3>
+          <div class="work__img-wrapper  work__image5">  
+            <img class="lazy loading"  data-src="/react-portfolio-scshot.png" alt="Projekt 5">
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Project 5</h3>
+            <p class="work__project-description1">Portfolio stránka ktorú som začal a nedokončil, ale používam tam tailwind.</p>
+            <ul class="work__project-description2">
+              <li class="work__project-description2">
+                React
+              </li>
+              <li class="work__project-description2">
+                TailwindCSS
+              </li>
+            </ul>
+            <a href="" class="btn work__project-btn">Github-code</a>
+          </div>
+
+          <!-- Project 6-->
+          <!-- <h3 class="work__project-title">Project 6</h3>
+          <div class="work__img-wrapper  work__image6">  
+            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/yiskra.png" alt="Projekt 6">
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">Project 6</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
+            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
+            <a href="" class="btn work__project-btn">Website</a>
+          </div> -->
+        </div>
+      </section>
       <section id="featured" class="featured container section">
-        <h3 class="featured__subtitle">Featured project</h3>
+        <!-- <h3 class="featured__subtitle">Featured project</h3> -->
         <div class="featured__wrapper">
-          <h2 class="featured__title">Slaying The Dragon</h2>
-          <a aria-label="link featured projects" href="#" class="featured__link">
+          <h2 class="featured__title">Projekty z tutorial hell</h2>
+          <!-- <a aria-label="link featured projects" href="#" class="featured__link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
               <path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z" clip-rule="evenodd" />
             </svg>
-          </a>
+          </a> -->
       </div>
         <p class="featured__description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, omnis aliquid quaerat, dolorum eveniet facere est dolore, sequi fugiat assumenda pariatur excepturi odio officia? Architecto eaque inventore rerum sunt provident?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est tempora possimus officia dicta quaerat pariatur unde illum voluptas perspiciatis explicabo, voluptate ab! Cumque dolor quidem asperiores id, accusamus iusto sint.
+          Tu sú dva projekty ktoré sú spravené v reacte s tailwindom. Čo sa týka hookov, props etc., tak ma absolutne nič nenaučili. Stretol som sa tam prvý krát s tailwindom a zmemorizoval to najzákladnejšie názvoslovie.
         </p>
-        <div class="featured__info-container">
+        <!-- <div class="featured__info-container">
           <div>
             <h3 class="featured__label">Tech stack</h3>
             <ul class="featured__tech-stack">
@@ -140,8 +270,34 @@
             <h3 class="featured__label">Timeline</h3>
             <p class="featured__info">January 2024 - present</p>
           </div>
-        </div>
+        </div> -->
         <div class="featured__img-container">
+          <a href="https://j-smastery-react-tailwind-website.vercel.app/">
+            <div class="featured__img-wrapper">
+              <img class="lazy loading"  data-src="/react-bw-scshot.png" alt="web">
+            </div>
+          </a>
+          <a href="https://j-smastery-tailwind-css-website.vercel.app/">
+            <div class="featured__img-wrapper">
+              <img class="lazy loading"  data-src="/react-nike-scshot.png" alt="web">
+            </div>
+          </a>
+          <div class="featured__project-btn-container">
+            <a href="https://github.com/michalFusko/JSmastery-react-tailwind-website.git" class="btn">Github-code</a>
+          </div>
+          <div class="featured__project-btn-container">
+            <a href="https://github.com/michalFusko/JSmastery-tailwindCSS-website.git" class="btn">Github-code</a>
+          </div>
+
+
+          <!-- <div class="featured__img-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page2.png" alt="web">
+          </div>
+
+          <div class="featured__img-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page1.png" alt="web">
+          </div>
+
           <div class="featured__img-wrapper">
             <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page1.png" alt="web">
           </div>
@@ -156,114 +312,20 @@
 
           <div class="featured__img-wrapper">
             <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page1.png" alt="web">
-          </div>
-
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page1.png" alt="web">
-          </div>
-
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page2.png" alt="web">
-          </div>
-
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page2.png" alt="web">
-          </div>
-
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1669x911" data-src="/page1.png" alt="web">
-          </div>
+          </div> -->
         </div>
       </section>
 
-      <section class="work container section">
-        <h2 class="work__title">Projects</h2>
-        <p class="work__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur distinctio at a eveniet minus voluptate amet ut placeat ex, voluptatem repudiandae saepe id itaque praesentium fuga obcaecati consequatur unde?
-        </p>
-
-        <div class="work__container">
-          <!-- Project 1-->
-          <h3 class="work__project-title">Project 1</h3>
-          <div class="work__img-wrapper work__image1">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/lepshee.png" alt="Projekt 1">
-          </div>
-          <div class="work__project work__content1">
-            <h3 class="work__project-subtitle">Project 1</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-
-          <!-- Project 2-->
-          <h3 class="work__project-title">Project 2</h3>
-          <div class="work__img-wrapper  work__image2">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/yiskra.png" alt="Projekt 2">
-          </div>
-          <div class="work__project work__content2">
-            <h3 class="work__project-subtitle">Project 2</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-
-          <!-- Project 3-->
-          <h3 class="work__project-title">Project 3</h3>
-          <div class="work__img-wrapper  work__image3">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/lepshee.png" alt="Projekt 3">
-          </div>
-          <div class="work__project work__content3">
-            <h3 class="work__project-subtitle">Project 3</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-
-          <!-- Project 4-->
-          <h3 class="work__project-title">Project 4</h3>
-          <div class="work__img-wrapper  work__image4">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/yiskra.png" alt="Projekt 4">
-          </div>
-          <div class="work__project work__content4">
-            <h3 class="work__project-subtitle">Project 4</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-
-          <!-- Project 5-->
-          <h3 class="work__project-title">Project 5</h3>
-          <div class="work__img-wrapper  work__image5">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/lepshee.png" alt="Projekt 5">
-          </div>
-          <div class="work__project work__content5">
-            <h3 class="work__project-subtitle">Project 5</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-
-          <!-- Project 6-->
-          <h3 class="work__project-title">Project 6</h3>
-          <div class="work__img-wrapper  work__image6">  
-            <img class="lazy loading" src="https://fakeimg.pl/911x911" data-src="/yiskra.png" alt="Projekt 6">
-          </div>
-          <div class="work__project work__content6">
-            <h3 class="work__project-subtitle">Project 6</h3>
-            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-            <p class="work__project-description2">Perspiciatis qui dolore quidem nesciunt vitae facilis ullam, sunt ipsam cumque hic temporibus, repellat quae aliquid nulla minima. Quos blanditiis rem id!</p>
-            <a href="" class="btn work__project-btn">Website</a>
-          </div>
-        </div>
-      </section>
       <section id="contact" class="contact conatiner section">
-        <h2 class="contact__title">Get In Contact</h2>  
-        <p class="contact__description">Wheter you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and i well get back to you as soon as possible.</p>
-        <a href="mailto:m.fusko28@gmail.com" class="contact__btn btn" target="_blank">Reach Out</a>
+        <h2 class="contact__title">Zaujal som Vás?</h2>  
+        <p class="contact__description">Ak si myslíte, že som vhodný kandidát na pozíciu ktorú hľadáte, rád sa s Vami uvidím na pohovore!</p>
+        <p class="contact__description">+420 605 029 680</p>
+        <a href="mailto:m.fusko28@gmail.com" class="contact__btn btn" target="_blank">Pošlite mi mail :&#41;</a>
       </section>
+      
     </main>
     <footer class="footer conatiner section">
-      <h3 class="footer__title">~ Miško Fusko ~</h3>
+      <h3 class="footer__title">~ Michal Fusko ~</h3>
     </footer>
 
     <script type="module" src="/src/main.js"></script>

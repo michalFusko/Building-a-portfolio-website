@@ -63,6 +63,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
+    
 }
 
 .featured__img-wrapper {
@@ -83,6 +84,14 @@
 
 .featured__img-wrapper:hover:after {
     background-color: rgba(79, 70, 229, 0.1);
+}
+
+
+
+.featured__project-btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
